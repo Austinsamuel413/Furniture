@@ -1,0 +1,34 @@
+<div class="container" id="detail">
+  <div class="row">
+    <div class="col-md-8 image">
+      <%= image_tag @piece.img_file %>
+    </div>
+    <div class="col-md-4 info">
+      <div class="item">
+        <%= @piece.item %>
+      </div>
+      <div class="price">
+        Price
+      </div>
+      <div class="ruby-insert">
+        <%= number_to_currency(@piece.price, precision: 0) %>
+      </div>
+      <div class="description">
+        Description
+      </div>
+      <div class="ruby-insert">
+        <%= @piece.description %>
+      </div>
+      <div class="dimensions">
+        Dimensions
+      </div>
+      <div class="ruby-insert">
+        <ul>
+          <li>Width: <%= @piece.dimension_w %></li>
+          <li>Length: <%= @piece.dimension_l %></li>
+          <li>Height: <%= @piece.dimension_h %></li>
+        </ul>
+      </div>
+    </div>
+  </div>
+</div>

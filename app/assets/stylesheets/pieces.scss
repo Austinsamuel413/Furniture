@@ -1,0 +1,94 @@
+// Place all the styles related to the pieces controller here.
+// They will automatically be included in application.css.
+// You can use Sass (SCSS) here: http://sass-lang.com/
+
+.page-header {
+  height: 50px;
+  background-color: #2C3E4F;
+  color: #FAFCFE;
+  text-align:center;
+  font-family: 'Alegreya', serif;
+  h1 {
+    line-height: 50px;
+    font-size: 25px;
+    font-weight: 600;
+  }
+}
+#list {
+  .cell {
+    height: 550px;
+    .sale {
+      background-color: #F1C40F;
+    }
+  }
+}
+.home-button {
+  height: 50px;
+  width:40px;
+  color: #FAFCFE;
+  background-color: #28A085;
+  text-align:center;
+  float: right;
+  clear: left;
+  span {
+    font-size: 1.6em;
+    text-align:center;
+    line-height: 50px;
+  }
+}
+.back-button {
+  height: 50px;
+  width:40px;
+  color: #FAFCFE;
+  background-color: #800700;
+  text-align:center;
+  float: right;
+  clear: right;
+  span {
+    font-size: 1.6em;
+    text-align:center;
+    line-height: 50px;
+  }
+}
+#home {
+
+  .hero {
+    background-image: url(http://i.imgur.com/EVRkby5.jpg);
+    height: 500px;
+    margin-top: 0;
+    z-index: -1;
+    background-size: cover;
+    .hero-text {
+      text-align: right;
+      padding: 50px 30px;
+    }
+  }
+}
+#detail {
+  color: #111111;
+  .info {
+
+    .item {
+      background-color: #F2C40D;
+      font-size: 24px;
+    }
+    .price{
+      background-color: #BFF6EB;
+      margin-top: 10px;
+      margin-bottom: 10px;
+    }
+    .description, .dimensions {
+      background-color: #EEEEEE;
+      margin-top: 10px;
+      margin-bottom: 10px;
+    }
+    .ruby-insert {
+      line-height: 1.6em;
+    }
+  }
+  .image {
+    img {
+      width: 90%;
+    }
+  }
+}
